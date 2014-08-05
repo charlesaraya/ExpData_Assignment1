@@ -50,51 +50,51 @@ The overall goal of this assignment is to explore the National Emissions Invento
 
 You must address the following questions and tasks in your exploratory analysis. For each question/task you will need to make a single plot. Unless specified, you can use any plotting system in R to make your plot.
 
-1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the **base** plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+- Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the **base** plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 
-PM2.5 emissions have decresed in USA from 1999 to 2008 year by year.
+**PM2.5 emissions have decresed in USA from 1999 to 2008 year by year.**
 
-2. Have total emissions from PM2.5 decreased in the **Baltimore City**, Maryland (`fips == "24510"`) from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+- Have total emissions from PM2.5 decreased in the **Baltimore City**, Maryland (`fips == "24510"`) from 1999 to 2008? Use the base plotting system to make a plot answering this question.
 
-PM2.5 emissions have decresed in Baltimore city from 1999 to 2008 but in 2005 PM2.5 emissions had a peek up rasining to 3091.354 and then falling to 1862.282 in 2008.
+**PM2.5 emissions have decresed in Baltimore city from 1999 to 2008 but in 2005 PM2.5 emissions had a peek up rasining to 3091.354 and then falling to 1862.282 in 2008.**
 
-3. Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for **Baltimore City**? Which have seen increases in emissions from 1999–2008? Use the **ggplot2** plotting system to make a plot answer this question.
+- Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for **Baltimore City**? Which have seen increases in emissions from 1999–2008? Use the **ggplot2** plotting system to make a plot answer this question.
 
-NON-POINT emissions have seen decreasesduring the period between 1999-2008 but still very high above the other types of emissions. NON-ROAD and ON-ROAD emissions have decreased during the period previously mentioned. It is visible that the absolute difference between emissions in 2002 and 2006 for types NONPOINT, NON-ROAD and ON-ROAD were next to 0. On the other hand, POINT emissions suffered a big increase and that same period, but decreasing again in 2008. Nevertheless it fell to values near 1999, the balance is negative. so we can conclude that this type of emission have decreased.
+**NON-POINT emissions have seen decreasesduring the period between 1999-2008 but still very high above the other types of emissions. NON-ROAD and ON-ROAD emissions have decreased during the period previously mentioned. It is visible that the absolute difference between emissions in 2002 and 2006 for types NONPOINT, NON-ROAD and ON-ROAD were next to 0. On the other hand, POINT emissions suffered a big increase and that same period, but decreasing again in 2008. Nevertheless it fell to values near 1999, the balance is negative. so we can conclude that this type of emission have decreased.**
 
-4. Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+- Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
 
-Emissions from Coal combustion-related sources have decreased from 1999-2008.
+**Emissions from Coal combustion-related sources have decreased from 1999-2008.**
 
-5. How have emissions from motor vehicle sources changed from 1999–2008 in **Baltimore City**?
+- How have emissions from motor vehicle sources changed from 1999–2008 in **Baltimore City**?
 
-Emissions have decreased.
+**Emissions have decreased.**
 
-6. Compare emissions from motor vehicle sources in **Baltimore City** with emissions from motor vehicle sources in **Los Angeles County**, California (`fips == "06037"`). Which city has seen greater changes over time in motor vehicle emissions?
+- Compare emissions from motor vehicle sources in **Baltimore City** with emissions from motor vehicle sources in **Los Angeles County**, California (`fips == "06037"`). Which city has seen greater changes over time in motor vehicle emissions?
 
-Los Angeles has seen greater changes over time from 199 to 2008. First a big increase from 1999 to 2002, and later a big decrease from 2006 to 2008.
+**Los Angeles has seen greater changes over time from 199 to 2008. First a big increase from 1999 to 2002, and later a big decrease from 2006 to 2008.**
 
 ### Plot 1
 
-![plot 1](PNG%plots/plot1.png) 
+![plot 1](PNG plots/plot1.png) 
 
 
 ### Plot 2
 
-![plot 2](PNG%plots/plot2.png) 
+![plot 2](PNG plots/plot2.png) 
 
 ### Plot 3
 
-![plot 3](PNG%plots/plot3.png) 
+![plot 3](PNG plots/plot3.png) 
 
 ### Plot 4
 
-![plot 4](PNG%plots/plot4.png) 
+![plot 4](PNG plots/plot4.png) 
 
 ### Plot 5
 
-![plot 5](PNG%plots/plot5.png) 
+![plot 5](PNG plots/plot5.png) 
 
 ### Plot 6
 
-![plot 6](PNG%plots/plot5.png) 
+![plot 6](PNG plots/plot5.png) 
