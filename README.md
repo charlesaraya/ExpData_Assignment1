@@ -72,7 +72,7 @@ You must address the following questions and tasks in your exploratory analysis.
 
 - Compare emissions from motor vehicle sources in **Baltimore City** with emissions from motor vehicle sources in **Los Angeles County**, California (`fips == "06037"`). Which city has seen greater changes over time in motor vehicle emissions?
 
-**Los Angeles has seen greater changes over time from 199 to 2008. First a big increase from 1999 to 2002, and later a big decrease from 2006 to 2008.**
+**Los Angeles has seen greater changes over time from 1999 to 2008. First a big increase from 1999 to 2002, and later a big decrease from 2006 to 2008.**
 
 ### Plot 1
 
