@@ -68,7 +68,7 @@ You must address the following questions and tasks in your exploratory analysis.
 
 - How have emissions from motor vehicle sources changed from 1999–2008 in **Baltimore City**?
 
-**Emissions have decreased.**
+**Emissions from motor vehicle sources have decreased in Baltimore city from 1999 to 2008.**
 
 - Compare emissions from motor vehicle sources in **Baltimore City** with emissions from motor vehicle sources in **Los Angeles County**, California (`fips == "06037"`). Which city has seen greater changes over time in motor vehicle emissions?
 
