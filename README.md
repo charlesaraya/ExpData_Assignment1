@@ -97,4 +97,4 @@ You must address the following questions and tasks in your exploratory analysis.
 
 ### Plot 6
 
-![plot 6](PNG plots/plot5.png) 
+![plot 6](PNG plots/plot6.png) 
